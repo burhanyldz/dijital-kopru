@@ -81,7 +81,7 @@ body {
   background-color: #ffffff;
 }
 
-/* Logo background utilities for category pages */
+/* Kütüphaneler logos */
 .logo-bg-millet { background-image: url('./images/logos/kutuphaneler/millet-kutuphanesi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-milli { background-image: url('./images/logos/kutuphaneler/milli-kutuphane.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-ttk { background-image: url('./images/logos/kutuphaneler/turk-tarih-kurumu.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
@@ -91,6 +91,15 @@ body {
 .logo-bg-tdk { background-image: url('./images/logos/kutuphaneler/turk-dil-kurumu.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 
 .card-image.white-bg { display: flex; align-items: center; justify-content: center; }
+
+/* Ansiklopediler logos */
+.logo-bg-tubitak { background-image: url('./images/logos/ansiklopediler/tubitak.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-ataturk { background-image: url('./images/logos/ansiklopediler/ataturk-ansiklopedisi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-islam { background-image: url('./images/logos/ansiklopediler/islam-ansiklopedisi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-turkmaarif { background-image: url('./images/logos/ansiklopediler/turk-maarif-ansiklopedisi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-iep { background-image: url('./images/logos/ansiklopediler/iep.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-turkdunya { background-image: url('./images/logos/ansiklopediler/turk-dunyasi-ansiklopedisi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-teis { background-image: url('./images/logos/ansiklopediler/teis.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 
 /* Card Image Section */
 .card-image {
@@ -181,6 +190,11 @@ body {
   color: var(--orange-600);
 }
 
+.label-blue {
+  background: var(--info-color);
+  color: var(--text-white);
+}
+
 /* Card Content */
 .card-content {
   padding: 12px 24px;
@@ -197,6 +211,9 @@ body {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* Info Icon */
