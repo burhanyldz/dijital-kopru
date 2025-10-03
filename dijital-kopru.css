@@ -155,6 +155,16 @@ body {
 .logo-bg-trt-vizyon { background-image: url('./images/logos/dergiler/trt-vizyon.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-yesilay { background-image: url('./images/logos/dergiler/yesilay.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 
+/* İstatistiki Veri Kanalları logos */
+.logo-bg-tuik { background-image: url('./images/logos/istatistiki-veri-kanallari/tuik.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-oecd { background-image: url('./images/logos/istatistiki-veri-kanallari/oecd.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-unesco { background-image: url('./images/logos/istatistiki-veri-kanallari/unesco.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-worldbank { background-image: url('./images/logos/istatistiki-veri-kanallari/world-bank.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-google-dataset { background-image: url('./images/logos/istatistiki-veri-kanallari/google-dataset-search.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-oicstat { background-image: url('./images/logos/istatistiki-veri-kanallari/oicstat.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-eurostat { background-image: url('./images/logos/istatistiki-veri-kanallari/eurostat.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-harvard-growth { background-image: url('./images/logos/istatistiki-veri-kanallari/harvard-growth-lab.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+
 /* Card Image Section */
 .card-image {
   width: 100%;
