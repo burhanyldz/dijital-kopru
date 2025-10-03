@@ -165,6 +165,12 @@ body {
 .logo-bg-eurostat { background-image: url('./images/logos/istatistiki-veri-kanallari/eurostat.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-harvard-growth { background-image: url('./images/logos/istatistiki-veri-kanallari/harvard-growth-lab.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 
+/* Kurslar logos */
+.logo-bg-btk-akademi { background-image: url('./images/logos/kurslar/btk-akademi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-hemba { background-image: url('./images/logos/kurslar/hemba.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-bilgeis { background-image: url('./images/logos/kurslar/bilgeis.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-edx { background-image: url('./images/logos/kurslar/edx.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+
 /* Card Image Section */
 .card-image {
   width: 100%;
