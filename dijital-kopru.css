@@ -171,6 +171,13 @@ body {
 .logo-bg-bilgeis { background-image: url('./images/logos/kurslar/bilgeis.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-edx { background-image: url('./images/logos/kurslar/edx.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 
+/* Akademik Araştırma Siteleri logos */
+.logo-bg-tr-dizin { background-image: url('./images/logos/akademik-arastirma/tr-dizin.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-dergipark { background-image: url('./images/logos/akademik-arastirma/dergipark.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-yok-tez { background-image: url('./images/logos/akademik-arastirma/yok-tez-merkezi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-google-akademik { background-image: url('./images/logos/akademik-arastirma/google-akademik.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-science-gov { background-image: url('./images/logos/akademik-arastirma/science-gov.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+
 /* Card Image Section */
 .card-image {
   width: 100%;
