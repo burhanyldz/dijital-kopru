@@ -1,0 +1,244 @@
+/* Import Rubik Font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS Variables for consistent theming */
+:root {
+  /* Colors */
+  --border-weak: #DFE6F5;
+  --background-secondary: #FDFEFF;
+  --text-strong: #040308;
+  --text-white: #F5F5F5;
+  --info-color: #0284C7;
+  
+  /* Purple Colors */
+  --purple-100: #ECD9F3;
+  --purple-600: #7D359A;
+  
+  /* Indigo Colors */
+  --indigo-100: #E8CFFC;
+  --indigo-600: #710DC2;
+  
+  /* Yellow Colors */
+  --yellow-100: #FFF3CD;
+  --yellow-700: #997404;
+  
+  /* Green Colors */
+  --green-100: #D1E7D6;
+  --green-300: #75B783;
+  --green-500: #198731;
+  
+  /* Orange Colors */
+  --orange-100: #FFE5D0;
+  --orange-600: #CA6510;
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background: white;
+  padding: 40px 20px;
+}
+
+/* Cards Container */
+.cards-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 20px;
+    justify-items: center;
+}
+
+/* Individual Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  border-radius: 18px;
+  border: 1px solid var(--border-weak);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Image Section */
+.card-image {
+  width: 100%;
+  height: 160px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* Logos placed inside image area (used on category pages) */
+.logo-in-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 110px;
+    max-width: 90%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* New Badge */
+.new-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 2px 4px;
+  background: linear-gradient(0deg, var(--green-500) 0%, var(--green-300) 100%);
+  border-radius: 50px;
+  color: var(--text-white);
+  font-size: 10px;
+  font-weight: 400;
+}
+
+/* Category Label */
+.category-label {
+  height: 24px;
+  padding: 0 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  z-index: 2;
+}
+
+/* Label Colors */
+.label-purple {
+  background: var(--purple-100);
+  color: var(--purple-600);
+}
+
+.label-indigo {
+  background: var(--indigo-100);
+  color: var(--indigo-600);
+}
+
+.label-yellow {
+  background: var(--yellow-100);
+  color: var(--yellow-700);
+}
+
+.label-green {
+  background: var(--green-100);
+  color: var(--green-500);
+}
+
+.label-orange {
+  background: var(--orange-100);
+  color: var(--orange-600);
+}
+
+/* Card Content */
+.card-content {
+  padding: 12px 24px;
+  background: var(--background-secondary);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.card-title {
+  flex: 1;
+  color: var(--text-strong);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* Info Icon */
+.info-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.info-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--info-color);
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 8px;
+  padding: 12px;
+  background: white;
+  border: 1px solid var(--border-weak);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--text-strong);
+  width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(4px);
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.info-icon:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Background Images */
+.card-dijital-kutuphaneler { background-image: url('./images/dijital-kutuphaneler.jpeg'); }
+.card-akademik-arastirma { background-image: url('./images/akademik-arastirma-siteleri.jpeg'); }
+.card-cevrim-ici-kurslar { background-image: url('./images/cevrim-ici-kurslar.jpeg'); }
+.card-istatistiki-veriler { background-image: url('./images/istatistiki-veri-kanallari.jpeg'); }
+.card-kutuphaneler { background-image: url('./images/kutuphaneler.jpeg'); }
+.card-ansiklopediler { background-image: url('./images/ansiklopediler.jpeg'); }
+.card-gazete-arsivleri { background-image: url('./images/gazete-arsivleri.jpeg'); }
+.card-dergiler { background-image: url('./images/dergiler.jpeg'); }
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .cards-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .card {
+    width: 100%;
+  }
+}
