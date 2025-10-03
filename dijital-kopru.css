@@ -53,14 +53,13 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     padding: 20px;
-    justify-items: center;
 }
 
 /* Individual Card */
 .card {
   display: flex;
   flex-direction: column;
-  width: 256px;
+  width: 100%;
   border-radius: 18px;
   border: 1px solid var(--border-weak);
   overflow: hidden;
@@ -72,10 +71,31 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
+/* clickable card helper (used by category pages) */
+.card.clickable {
+  cursor: pointer;
+}
+
+/* white background helper for card image area when showing logos */
+.card-image.white-bg {
+  background-color: #ffffff;
+}
+
+/* Logo background utilities for category pages */
+.logo-bg-millet { background-image: url('./images/logos/kutuphaneler/millet-kutuphanesi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-milli { background-image: url('./images/logos/kutuphaneler/milli-kutuphane.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-ttk { background-image: url('./images/logos/kutuphaneler/turk-tarih-kurumu.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-loc { background-image: url('./images/logos/kutuphaneler/library-of-congress.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-koha { background-image: url('./images/logos/kutuphaneler/koha-kutuphane-otomasyon-sistemi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-atauni { background-image: url('./images/logos/kutuphaneler/ataturk-universitesi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-tdk { background-image: url('./images/logos/kutuphaneler/turk-dil-kurumu.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+
+.card-image.white-bg { display: flex; align-items: center; justify-content: center; }
+
 /* Card Image Section */
 .card-image {
   width: 100%;
-  height: 160px;
+  aspect-ratio: 320 / 200;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -84,16 +104,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+  overflow: hidden;
 }
 
 /* Logos placed inside image area (used on category pages) */
 .logo-in-image {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  max-height: 110px;
-    max-width: 90%;
   object-fit: contain;
   pointer-events: none;
 }
@@ -111,6 +126,18 @@ body {
   font-weight: 400;
 }
 
+/* Animated pulse for "Yeni" badges (fade in/out subtly) */
+.new-badge {
+  animation: badge-fade 1s ease-in-out infinite;
+  will-change: opacity, transform;
+}
+
+@keyframes badge-fade {
+  0% { opacity: 1; }
+  50% { opacity: 0.75; }
+    100% { opacity: 1; }
+}
+
 /* Category Label */
 .category-label {
   height: 24px;
@@ -122,7 +149,10 @@ body {
   font-size: 14px;
   font-weight: 600;
   line-height: 22px;
-  z-index: 2;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 4;
 }
 
 /* Label Colors */
@@ -158,6 +188,7 @@ body {
   display: flex;
   align-items: center;
   gap: 7px;
+    border-top: 1px solid var(--border-weak);
 }
 
 .card-title {
@@ -240,5 +271,11 @@ body {
   
   .card {
     width: 100%;
+  }
+  
+  .card-image {
+    height: auto;
+    aspect-ratio: 320 / 200;
+    min-height: 200px;
   }
 }
