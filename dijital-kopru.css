@@ -10,26 +10,54 @@
   --text-white: #F5F5F5;
   --info-color: #0284C7;
   
-  /* Purple Colors */
-  --purple-100: #ECD9F3;
-  --purple-600: #7D359A;
-  
-  /* Indigo Colors */
-  --indigo-100: #E8CFFC;
-  --indigo-600: #710DC2;
-  
-  /* Yellow Colors */
-  --yellow-100: #FFF3CD;
-  --yellow-700: #997404;
-  
-  /* Green Colors */
-  --green-100: #D1E7D6;
+  /* Label Palettes */
+  --label-lilac-top: #F0E4FF;
+  --label-lilac-bottom: #E0CCFF;
+  --label-lilac-text: #6F2E94;
+
+  --label-lavender-top: #F4E6FF;
+  --label-lavender-bottom: #E7D5FF;
+  --label-lavender-text: #713CDC;
+
+  --label-rose-top: #F9DEEA;
+  --label-rose-bottom: #F2C4D8;
+  --label-rose-text: #A1376F;
+
+  --label-sky-top: #D8F2FF;
+  --label-sky-bottom: #BFE3FF;
+  --label-sky-text: #177EB8;
+
+  --label-jade-top: #D8F1E3;
+  --label-jade-bottom: #C7E6D3;
+  --label-jade-text: #1F7D41;
+
+  --label-mint-top: #E3F6E9;
+  --label-mint-bottom: #CEEAD6;
+  --label-mint-text: #1E8D52;
+
+  --label-amber-top: #FFF4CC;
+  --label-amber-bottom: #FFE0A1;
+  --label-amber-text: #A07205;
+
+  --label-apricot-top: #FFE8D2;
+  --label-apricot-bottom: #FFD5AF;
+  --label-apricot-text: #C45E15;
+
+  --label-cerise-top: #FADADF;
+  --label-cerise-bottom: #F2BAC3;
+  --label-cerise-text: #AD3251;
+
+  --label-aqua-top: #D7F1F4;
+  --label-aqua-bottom: #BFE3E8;
+  --label-aqua-text: #2A7C8D;
+
+  --label-periwinkle-top: #E0E7FF;
+  --label-periwinkle-bottom: #CBD6FF;
+  --label-periwinkle-text: #2E57C7;
+
+  /* Accent greens retained for badges */
   --green-300: #75B783;
   --green-500: #198731;
-  
-  /* Orange Colors */
-  --orange-100: #FFE5D0;
-  --orange-600: #CA6510;
 }
 
 /* Base styles */
@@ -162,37 +190,64 @@ body {
   top: 12px;
   right: 12px;
   z-index: 4;
+  box-shadow: 0 2px 4px rgba(20, 32, 75, 0.1);
+  white-space: nowrap;
 }
 
 /* Label Colors */
-.label-purple {
-  background: var(--purple-100);
-  color: var(--purple-600);
+.label-lilac {
+  background: linear-gradient(180deg, var(--label-lilac-top) 0%, var(--label-lilac-bottom) 100%);
+  color: var(--label-lilac-text);
 }
 
-.label-indigo {
-  background: var(--indigo-100);
-  color: var(--indigo-600);
+.label-lavender {
+  background: linear-gradient(180deg, var(--label-lavender-top) 0%, var(--label-lavender-bottom) 100%);
+  color: var(--label-lavender-text);
 }
 
-.label-yellow {
-  background: var(--yellow-100);
-  color: var(--yellow-700);
+.label-rose {
+  background: linear-gradient(180deg, var(--label-rose-top) 0%, var(--label-rose-bottom) 100%);
+  color: var(--label-rose-text);
 }
 
-.label-green {
-  background: var(--green-100);
-  color: var(--green-500);
+.label-sky {
+  background: linear-gradient(180deg, var(--label-sky-top) 0%, var(--label-sky-bottom) 100%);
+  color: var(--label-sky-text);
 }
 
-.label-orange {
-  background: var(--orange-100);
-  color: var(--orange-600);
+.label-jade {
+  background: linear-gradient(180deg, var(--label-jade-top) 0%, var(--label-jade-bottom) 100%);
+  color: var(--label-jade-text);
 }
 
-.label-blue {
-  background: var(--info-color);
-  color: var(--text-white);
+.label-mint {
+  background: linear-gradient(180deg, var(--label-mint-top) 0%, var(--label-mint-bottom) 100%);
+  color: var(--label-mint-text);
+}
+
+.label-amber {
+  background: linear-gradient(180deg, var(--label-amber-top) 0%, var(--label-amber-bottom) 100%);
+  color: var(--label-amber-text);
+}
+
+.label-apricot {
+  background: linear-gradient(180deg, var(--label-apricot-top) 0%, var(--label-apricot-bottom) 100%);
+  color: var(--label-apricot-text);
+}
+
+.label-cerise {
+  background: linear-gradient(180deg, var(--label-cerise-top) 0%, var(--label-cerise-bottom) 100%);
+  color: var(--label-cerise-text);
+}
+
+.label-aqua {
+  background: linear-gradient(180deg, var(--label-aqua-top) 0%, var(--label-aqua-bottom) 100%);
+  color: var(--label-aqua-text);
+}
+
+.label-periwinkle {
+  background: linear-gradient(180deg, var(--label-periwinkle-top) 0%, var(--label-periwinkle-bottom) 100%);
+  color: var(--label-periwinkle-text);
 }
 
 /* Card Content */
