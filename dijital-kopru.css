@@ -324,9 +324,7 @@ body {
   font-weight: 600;
   line-height: 24px;
   max-width: calc(100% - 24px); /* leave space for info icon */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+
 }
 
 /* Info Icon */
@@ -368,6 +366,13 @@ body {
 }
 
 .info-icon:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* When tooltip is explicitly opened (via JS toggle) use same visible styles */
+.tooltip.open {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);

@@ -9,14 +9,14 @@
 <body>
     <div class="cards-container">
         <!-- Card 1: Dijital Kaynaklar -->
-        <div class="card" onclick="window.location.href='dijital-kaynaklar.html'" style="cursor: pointer;">
+    <div class="card clickable" data-href="dijital-kaynaklar.html">
             <div class="card-image card-dijital-kutuphaneler">
                 <div class="new-badge">Yeni</div>
                 <div class="category-label label-aqua">DİJİTAL</div>
             </div>
             <div class="card-content">
                 <div class="card-title">Dijital Kaynaklar</div>
-                <div class="info-icon" onclick="event.stopPropagation();">
+                <div class="info-icon">
                     <img src="images/info.svg" alt="Info Icon" />
                     <div class="tooltip">Çevrimiçi kütüphane ve diğer yayınlardan yararlanabilmeniz ve araştırmalarınızda istifade edebilmeniz için ansiklopedi, kütüphane, gazete ve dergi arşivlerine bu bölümden ulaşabilirsiniz.</div>
                 </div>
@@ -24,13 +24,13 @@
         </div>
 
         <!-- Card 2: Akademik Araştırma -->
-        <div class="card" onclick="window.location.href='akademik-arastirma.html'" style="cursor: pointer;">
+    <div class="card clickable" data-href="akademik-arastirma.html">
             <div class="card-image card-akademik-arastirma">
                 <div class="category-label label-lavender">ARAŞTIRMA</div>
             </div>
             <div class="card-content">
                 <div class="card-title">Akademik Araştırma</div>
-                <div class="info-icon" onclick="event.stopPropagation();">
+                <div class="info-icon">
                     <img src="images/info.svg" alt="Info Icon" />
                     <div class="tooltip">Araştırma ve projelerinizde faydalanabileceğiniz makale, tez vb. akademik çalışmalara bu bölümden ulaşabilirsiniz.</div>
                 </div>
@@ -38,13 +38,13 @@
         </div>
 
         <!-- Card 3: Çevrim İçi Kurslar -->
-        <div class="card" onclick="window.location.href='kurslar.html'" style="cursor: pointer;">
+    <div class="card clickable" data-href="kurslar.html">
             <div class="card-image card-cevrim-ici-kurslar">
                 <div class="category-label label-jade">KURSLAR</div>
             </div>
             <div class="card-content">
                 <div class="card-title">Çevrim İçi Kurslar</div>
-                <div class="info-icon" onclick="event.stopPropagation();">
+                <div class="info-icon">
                     <img src="images/info.svg" alt="Info Icon" />
                     <div class="tooltip">Üniversitelerin ve kurumların birçok alanda hazırladığı çevrimiçi derslere ve kurs programlarına bu bölümden ulaşabilirsiniz.</div>
                 </div>
@@ -52,19 +52,22 @@
         </div>
 
         <!-- Card 4: İstatistiki Veriler -->
-        <div class="card" onclick="window.location.href='istatistiki-veri-kanallari.html'" style="cursor: pointer;">
+    <div class="card clickable" data-href="istatistiki-veri-kanallari.html">
             <div class="card-image card-istatistiki-veriler">
                 <div class="new-badge">Yeni</div>
                 <div class="category-label label-apricot">VERİLER</div>
             </div>
             <div class="card-content">
                 <div class="card-title">İstatistiki Veriler</div>
-                <div class="info-icon" onclick="event.stopPropagation();">
+                <div class="info-icon">
                     <img src="images/info.svg" alt="Info Icon" />
                     <div class="tooltip">Farklı alanlarda yapılmış çalışmaların istatistiki bilgilerine ve veri setlerine bu bölümden ulaşabilirsiniz.</div>
                 </div>
             </div>
         </div>
     </div>
-</body>
+    </div>
+        <script src="tooltip.js"></script>
+        <script src="main.js"></script>
+    </body>
 </html>

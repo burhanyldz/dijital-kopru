@@ -10,13 +10,13 @@
     
     <div class="cards-container">
         <!-- Card 5: Kütüphaneler -->
-        <div class="card" onclick="window.location.href='kutuphaneler.html'" style="cursor: pointer;">
+    <div class="card clickable" data-href="kutuphaneler.html">
             <div class="card-image card-kutuphaneler">
                 <div class="category-label label-amber">KÜTÜPHANELER</div>
             </div>
             <div class="card-content">
                 <div class="card-title">Kütüphaneler</div>
-                <div class="info-icon" onclick="event.stopPropagation();">
+                <div class="info-icon">
                     <img src="images/info.svg" alt="Info Icon" />
                     <div class="tooltip">Dijital kütüphanelere bu bölümden ulaşabilirsiniz.</div>
                 </div>
@@ -24,14 +24,14 @@
         </div>
 
         <!-- Card 6: Ansiklopediler -->
-        <div class="card" onclick="window.location.href='ansiklopediler.html'" style="cursor: pointer;">
+    <div class="card clickable" data-href="ansiklopediler.html">
             <div class="card-image card-ansiklopediler">
                 <div class="new-badge">Yeni</div>
                 <div class="category-label label-periwinkle">ANSİKLOPEDİLER</div>
             </div>
             <div class="card-content">
                 <div class="card-title">Ansiklopediler</div>
-                <div class="info-icon" onclick="event.stopPropagation();">
+                <div class="info-icon">
                     <img src="images/info.svg" alt="Info Icon" />
                     <div class="tooltip">Dijital ansiklopedilere bu bölümden ulaşabilirsiniz.</div>
                 </div>
@@ -39,13 +39,13 @@
         </div>
 
         <!-- Card 7: Gazete Arşivleri -->
-        <div class="card" onclick="window.location.href='gazete-arsivleri.html'" style="cursor: pointer;">
+    <div class="card clickable" data-href="gazete-arsivleri.html">
             <div class="card-image card-gazete-arsivleri">
                 <div class="category-label label-cerise">GAZETE ARŞİVLERİ</div>
             </div>
             <div class="card-content">
                 <div class="card-title">Gazete Arşivleri</div>
-                <div class="info-icon" onclick="event.stopPropagation();">
+                <div class="info-icon">
                     <img src="images/info.svg" alt="Info Icon" />
                     <div class="tooltip">Dijital gazete arşivlerine bu bölümden ulaşabilirsiniz.</div>
                 </div>
@@ -53,19 +53,22 @@
         </div>
 
         <!-- Card 8: Dergiler -->
-        <div class="card" onclick="window.location.href='dergiler.html'" style="cursor: pointer;">
+    <div class="card clickable" data-href="dergiler.html">
             <div class="card-image card-dergiler">
                 <div class="new-badge">Yeni</div>
                 <div class="category-label label-sky">DERGİLER</div>
             </div>
             <div class="card-content">
                 <div class="card-title">Dergiler</div>
-                <div class="info-icon" onclick="event.stopPropagation();">
+                <div class="info-icon">
                     <img src="images/info.svg" alt="Info Icon" />
                     <div class="tooltip">Dijital dergilere bu bölümden ulaşabilirsiniz.</div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    <script src="tooltip.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
