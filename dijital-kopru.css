@@ -129,6 +129,15 @@ body {
 .logo-bg-turkdunya { background-image: url('./images/logos/ansiklopediler/turk-dunyasi-ansiklopedisi.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-teis { background-image: url('./images/logos/ansiklopediler/teis.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 
+
+/* Gazete Arşivleri logos */
+.logo-bg-gazeteden { background-image: url('./images/logos/gazete-arsivleri/gazeteden-tarihe-bakis.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-azerbaycan { background-image: url('./images/logos/gazete-arsivleri/azerbaycan-milli-kutuphane.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-europeana { background-image: url('./images/logos/gazete-arsivleri/europeana.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-deutsches { background-image: url('./images/logos/gazete-arsivleri/deutsches-zeitungsportal.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-chronicling { background-image: url('./images/logos/gazete-arsivleri/chronicling-america.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-anno { background-image: url('./images/logos/gazete-arsivleri/anno.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+
 /* Card Image Section */
 .card-image {
   width: 100%;
