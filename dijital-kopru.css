@@ -138,6 +138,23 @@ body {
 .logo-bg-chronicling { background-image: url('./images/logos/gazete-arsivleri/chronicling-america.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-anno { background-image: url('./images/logos/gazete-arsivleri/anno.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 
+/* Dergiler logos */
+.logo-bg-bilim-genc { background-image: url('./images/logos/dergiler/bilim-genc.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-tubitak-populer { background-image: url('./images/logos/dergiler/tubitak-populer-bilim.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-aselsan { background-image: url('./images/logos/dergiler/aselsan.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-tusas { background-image: url('./images/logos/dergiler/turk-havacilik-ve-uzay-sanayii.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-havelsan { background-image: url('./images/logos/dergiler/havelsan.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-maarif { background-image: url('./images/logos/dergiler/maarif.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-turk-dunyasi-dergi { background-image: url('./images/logos/dergiler/turk-dunyasi-dil-ve-edebiyat.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-turk-dili { background-image: url('./images/logos/dergiler/turk-dili.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-ayk { background-image: url('./images/logos/dergiler/ayk.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-belleten { background-image: url('./images/logos/dergiler/belleten.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-turk-kizilay { background-image: url('./images/logos/dergiler/turk-kizilay.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-turk-arkeoloji { background-image: url('./images/logos/dergiler/turk-arkeoloji-ve-etnografya.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-diyanet { background-image: url('./images/logos/dergiler/diyanet.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-trt-vizyon { background-image: url('./images/logos/dergiler/trt-vizyon.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-yesilay { background-image: url('./images/logos/dergiler/yesilay.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+
 /* Card Image Section */
 .card-image {
   width: 100%;
