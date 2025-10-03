@@ -81,6 +81,10 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     padding: 20px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 /* Individual Card */
@@ -90,7 +94,6 @@ body {
   width: 100%;
   border-radius: 18px;
   border: 1px solid var(--border-weak);
-  overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -193,6 +196,8 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   overflow: hidden;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
 }
 
 /* Logos placed inside image area (used on category pages) */
@@ -308,7 +313,9 @@ body {
   display: flex;
   align-items: center;
   gap: 7px;
-    border-top: 1px solid var(--border-weak);
+  border-top: 1px solid var(--border-weak);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
 }
 
 .card-title {
@@ -390,6 +397,7 @@ body {
 @media (max-width: 600px) {
   .cards-container {
     grid-template-columns: 1fr;
+    padding: 0;
   }
   
   .card {
