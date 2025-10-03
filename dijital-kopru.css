@@ -141,6 +141,7 @@ body {
 /* Dergiler logos */
 .logo-bg-bilim-genc { background-image: url('./images/logos/dergiler/bilim-genc.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-ogretmeniz { background-image: url('./images/logos/dergiler/ogretmeniz.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
+.logo-bg-milli-egitim { background-image: url('./images/logos/dergiler/milli-egitim.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-tubitak-populer { background-image: url('./images/logos/dergiler/tubitak-populer-bilim.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-aselsan { background-image: url('./images/logos/dergiler/aselsan.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
 .logo-bg-tusas { background-image: url('./images/logos/dergiler/turk-havacilik-ve-uzay-sanayii.png'); background-size: min(140px, 80%); background-repeat: no-repeat; background-position: center; }
