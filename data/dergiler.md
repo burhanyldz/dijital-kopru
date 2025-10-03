@@ -7,6 +7,12 @@ tooltip:
 TÜBİTAK'ın Dijital popüler bilim yayını Bilim Genç’te yer alan videolar ve bilgilendirici grafikler karmaşık bilimsel konuların daha kolay anlaşılmasını sağlarken, etkileşimli zekâ oyunları öğrenmeyi eğlenceli hale getiriyor.
 logo_image: /images/dergiler/bilim-genc.png
 
+title: ÖğretmenİZ Dergisi
+href: https://ogretmeniz.meb.gov.tr/
+tooltip:
+ÖğretmenİZ, öğretmenlerimizin değerinin, toplumdaki öneminin ve saygınlığının ön plana çıkarılmasını desteklemek amacıyla hazırlanmış bir dijital platformdur.
+logo_image: /images/dergiler/ogretmeniz.png
+
 title: Tübitak Popüler Bilim Yayınları
 href: https://services.tubitak.gov.tr/edergi/edergi.htm
 tooltip:
